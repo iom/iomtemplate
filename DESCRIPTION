@@ -1,0 +1,20 @@
+Package: iomtemplate
+Type: Package
+Title: 'pkgdown' Templates for IOM Packages
+Version: 0.1.0
+Authors@R:
+    c(person(given = "Edouard",
+             family = "Legoupil",
+             role = c("aut", "cre"),
+             email = "elegoupil@iom.int"),
+      person(family = "IOM",
+             role = "cph"))
+Description: This is a private template for 'pkgdown' for use by IOM packages. Please do not use this package for your own code.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/iom/iomtemplate
+BugReports: https://github.com/iom/iomtemplate/issues
+RoxygenNote: 7.1.2
+Imports:
+    pkgdown (>= 2.0.1)

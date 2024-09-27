@@ -1,0 +1,35 @@
+template:
+  bslib:
+    base_font: { google: "Open+Sans" }
+    code_font: { google: "Fira+Mono" }
+    variable-prefix: iom-
+    gray-100: "#f2f2f2"
+    gray-200: "#E6E6E6"
+    gray-300: "#CCCCCC"
+    gray-400: "#b3b3b3"
+    gray-500: "#999999"
+    gray-600: "#666666"
+    gray-700: "#4d4d4d"
+    gray-800: "#333333"
+    gray-900: "#222222"
+    blue: "#0033A0"
+    red: "#D22630"
+    yellow: "#FFB81C"
+    green: "#5CB8B2"
+    info: "#8EBEFF"
+    warning: "#E1CC0D"
+    link-decoration: none
+    link-hover-decoration: underline
+    mark-bg: "#FFF9CB"
+
+authors:
+  IOM:
+    href: https://www.iom.int/
+    html: <img src='https://raw.githubusercontent.com/iom/iomtemplate/master/man/figures/logo.svg' alt='IOM' width='120' />
+
+footer:
+  structure:
+    left: developed_by
+    right: iom_logo
+  components:
+    iom_logo: <a href="https://www.iom.int/" target="_blank" rel="noopener noreferrer"><img src='https://raw.githubusercontent.com/iom/iomtemplate/master/man/figures/logo.svg' alt='IOM logo' style='max-height:2.5rem' /></a>

@@ -1,0 +1,11 @@
+h2, .h2 {
+  color: $primary;
+}
+
+aside h2, aside .h2 {
+  color: $body-color;
+}
+
+li::marker {
+    color: $primary;
+  }

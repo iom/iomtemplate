@@ -1,0 +1,5 @@
+url: https://iom.github.io/iomtemplate
+
+template:
+  package: iomtemplate
+  bootstrap: 5
