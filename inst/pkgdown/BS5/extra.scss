@@ -9,3 +9,24 @@ aside h2, aside .h2 {
 li::marker {
     color: $primary;
   }
+
+/* Navbar */
+.navbar {
+  background: bottom/contain no-repeat,linear-gradient(94.45deg,#0033A0 1.55%,#0033A0 98.46%);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px 5px rgba(0,0,0,.15);
+  border: none;
+  min-height: 40px;
+}
+
+.navbar .nav-link {
+	font-size: 1.2rem;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+
+.navbar .navbar-toggler-icon {
+	color: "white";
+}
